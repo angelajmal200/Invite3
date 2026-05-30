@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ajmal & Sneha | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero" id="hero" aria-label="Wedding invitation parallax scene">
+      <div class="paper-grain"></div>
+      <div class="hero-frame"></div>
+
+      <img class="layer wave wave-top" src="assets/wave.png" alt="" />
+      <img class="layer wave wave-bottom" src="assets/wave.png" alt="" />
+      <img class="layer lotus lotus-left" src="assets/lotus.png" alt="" />
+      <img class="layer lotus lotus-right" src="assets/lotus.png" alt="" />
+      <img class="layer butterflies butterfly-a" src="assets/butterflies.png" alt="" />
+      <img class="layer butterflies butterfly-b" src="assets/butterflies.png" alt="" />
+
+      <div class="title title-top">
+        <p>Wedding Invitation</p>
+        <h1>Ajmal <span>&</span> Sneha</h1>
+      </div>
+
+      <img class="person groom" src="assets/groom.png" alt="Illustrated portrait of Ajmal" />
+      <img class="person bride" src="assets/bride.png" alt="Illustrated portrait of Sneha" />
+
+      <div class="title title-center">
+        <p>Together with their families</p>
+        <h2>Ajmal <span>&</span> Sneha</h2>
+        <button onclick="document.querySelector('#details').scrollIntoView({behavior:'smooth'})">View Details</button>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </section>
+
+    <section class="details" id="details">
+      <div class="details-card">
+        <p class="eyebrow">Save the Date</p>
+        <h2>Ajmal & Sneha</h2>
+        <p class="copy">A modern blue and teal illustrated wedding invitation with soft parallax motion, floating butterflies, ornamental waves, and lotus details.</p>
+        <div class="detail-grid">
+          <div><span>Date</span><strong>Update Date</strong></div>
+          <div><span>Venue</span><strong>Update Venue</strong></div>
+          <div><span>Time</span><strong>Update Time</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
