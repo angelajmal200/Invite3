@@ -6,7 +6,7 @@
   Your sequence is 15 FPS, but scroll speed is controlled by page height in CSS.
 */
 
-const FRAME_COUNT = 180; // <-- change this to your actual total frame count
+const FRAME_COUNT = 100; // <-- change this to your actual total frame count
 const FRAME_PATH = (index) => `frames/ezgif-frame-${String(index + 1).padStart(3, '0')}.jpg`;
 
 const canvas = document.getElementById('heroCanvas');
